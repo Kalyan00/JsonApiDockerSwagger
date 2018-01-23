@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  jsonapidockerswagger:
+    image: jsonapidockerswagger
+    build:
+      context: .
+      dockerfile: JsonApiDockerSwagger/Dockerfile
